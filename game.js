@@ -12,6 +12,7 @@ function main(currentTime) {
     window.requestAnimationFrame(main)
     lastRender = currentTime
 
+    
     update()
     draw()
 }
